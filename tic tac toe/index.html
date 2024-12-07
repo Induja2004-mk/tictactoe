@@ -1,0 +1,41 @@
+<html>
+  <head>
+  <title>tic tac toe</title>
+  <link rel="stylesheet" href="mov.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+  <body>
+   
+   <main>
+    <h1 class="honk-custom">WELCOME LETS MAKE FUN TOGETHER!!!</h1>
+    <header id="header">
+      <div class="player player-active" id="XPlayerDisplay"
+       onclick="choosePlayer('X')">
+        X
+      </div>
+      <h3 id="titleHeader">Choose</h3>
+      <div class="player" id="OPlayerDisplay" onclick="choosePlayer('O')">
+        O
+      </div>
+    </header>
+    <div id="board">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      </div>
+      <br><br>
+      <button id="restart">
+        Restart
+      </button>
+   </main> 
+   <script src="script.js"></script>
+  </body>
+</html>
